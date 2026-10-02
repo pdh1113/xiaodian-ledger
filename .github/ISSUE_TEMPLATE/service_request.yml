@@ -1,0 +1,37 @@
+name: 项目需求咨询
+description: 提交小工具或展示网页的需求（内容公开可见）
+title: "[需求咨询] "
+labels: ["inquiry"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **请注意：此表单公开可见。请勿填写姓名、电话、邮箱、地址、账号密码、客户资料或其他个人/敏感信息。**
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 想咨询的服务
+      options:
+        - 小店记账或收支记录工具
+        - 其他轻量浏览器工具
+        - 一页式展示网页
+        - 表格整理/自动化
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: 目前的问题和希望实现的结果
+     description: 请只描述一般需求，不要写个人或客户数据。
+      placeholder: 现在怎么处理？最想省掉哪一步？
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 需要的功能、设备和预算范围
+      placeholder: 例如手机可用、按月汇总、预算范围
+    validations:
+      required: false
+
