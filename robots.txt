@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pdh1113.github.io/xiaodian-ledger/sitemap.xml
