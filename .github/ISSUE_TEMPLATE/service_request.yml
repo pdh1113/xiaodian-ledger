@@ -1,7 +1,6 @@
 name: 项目需求咨询
 description: 提交小工具或展示网页的需求（内容公开可见）
 title: "[需求咨询] "
-labels: ["inquiry"]
 body:
   - type: markdown
     attributes:
@@ -34,4 +33,5 @@ body:
       placeholder: 例如手机可用、按月汇总、预算范围
     validations:
       required: false
+
 
